@@ -15,3 +15,4 @@ SELECT start_date, end_date
 FROM start_date_table sd
 JOIN end_date_table ed ON sd.row_index= ed.row_index
 ORDER BY DATEDIFF(end_date, start_date), start_date;
+
